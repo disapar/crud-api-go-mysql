@@ -1,0 +1,21 @@
+POST http://localhost:9000/save HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Marcos",
+    "apellido": "Di ANgelo",
+    "direccion": "Avenida 61",
+    "telefono": "211154578"
+}
+
+###
+GET http://localhost:9000/all HTTP/1.1
+
+
+### Traer un usuario
+
+GET http://localhost:9000/find/5 HTTP/1.1
+
+### Borrar uno
+GET http://localhost:9000/delete/6 HTTP/1.1
+
